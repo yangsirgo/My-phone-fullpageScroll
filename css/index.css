@@ -1,0 +1,145 @@
+
+.logo {
+    position: fixed;
+    left: 5%;
+    top: 4%;
+    z-index:10;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.index-box {
+    width: 90%;
+    height: 90%;
+    top: 16%;
+    position: relative;
+    margin: 0 auto;
+}
+.index-main-qone, .index-main-qtwo, .index-main-qthree {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+
+/*Í¼Æ¬¾ÓÖÐ*/
+.fp-tableCell{
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
+
+.about-bottom{
+    top: 50%;
+}
+
+        html {
+            font-size: 62.5%; /* 10÷16=62.5% */
+        }
+
+        .swiper-slide {
+        }
+
+        .swiper-pagination-bullet {
+            width: 6px;
+            height: 6px;
+            background: #fff;
+            opacity: .4;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+
+        /*section2*/
+        .swiper-slide {
+            font-size: 10px;
+            line-height: 17px;
+        }
+
+        .about-name {
+            font-size: 16px;
+        }
+
+        .about-zh {
+            font-size: 15px;
+
+        }
+
+        .swiper-slide-c {
+            width: 70%;
+        }
+
+        /*section3*/
+        .server-zh {
+            font-size: 15px;
+        }
+
+        .server-bottom {
+            top: 50%;
+        }
+
+        /*section10   */
+        .section2-eng-th {
+            font-size: 15px;
+        }
+
+        /*section11*/
+        .connect-text {
+            line-height: 15px;
+            font-size: 12px;
+        }
+
+        .connect-msg-t {
+            font-size: 15px;
+        }
+
+        .connect-zh {
+            font-size: 15px;
+        }
+
+        /*music*/
+        .music_control {
+            z-index: 1;
+        }
+
+        .play_btn {
+            height: 25px;
+            width: 25px;
+        }
+
+        .stop_btn {
+            height: 25px;
+            width: 25px;
+        }
+
+        /*music板块*/
+        .stop_btn {
+            left: 60%;
+            top: 15%;
+        }
+
+        .play_btn {
+            left: 60%;
+            top: 15%;
+        }
+
+        .music_control {
+            height: 25px;
+            width: 25px;
+        }
+
+        /*导航*/
+        .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+            bottom: 14%;
+            left: 25%;
+            width: 100%;
+        }
+        /*section11*/
+        .connect-pic img {
+            width: 25px;
+        }
